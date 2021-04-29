@@ -1,0 +1,9 @@
+apiVersion: profiles.fluxcd.io/v1alpha1
+kind: Profile
+metadata:
+  name: dokuwiki
+spec:
+  description: Profile for deploying dokuwiki.
+  artifacts:
+    - name: dokuwiki
+      path: dokuwiki
